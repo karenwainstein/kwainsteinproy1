@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(255, 223, 252);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    background: #f3c4f3;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.navegacion {
+    background: #ff89ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.navegacion a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.videogames h2, .videogames h3 {
+    margin-top: 0;
+    color: #d453b4;
+}
+
+
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    background: url('https://i.pinimg.com/564x/19/ca/67/19ca678bedd73e74380204b75852e476.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #ff89ff;
+}
+
+.info-perfil {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.info-perfil h2 {
+    margin: 0;
+    color: #ff89ff;
+}
+
+.info-perfil p {
+    margin: 5px 0;
+}
+
+.blurbs, .random, .mood  {
+    margin-bottom: 20px;
+    background: #f3c4f3;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.blurbs h3, .random h3, .mood h3  {
+    margin-top: 0;
+    color: #e258e2;
+}
+
+.interests {
+    margin-left: auto;
+    background: #f3c4f3;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.interests h3 {
+    margin-top: 0;
+    color: #e258e2;
+}
+
+.friends {
+
+    margin-bottom: 20px;
+    background: #f3c4f3;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 10%;
+    
+}
+
+.forums-choose {
+    margin-bottom: 20px;
+    background: #f3c4f3;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.forum-link  {
+    color: #d453b4;
+    font-family: 'Inconsolata', Arial, sans-serif;
+
+}
+
+.custom.hr {
+    border: none;
+    height: 3px;
+    background-color: #d453b4;
+}
+
+
+.game1 a, .game2 a, .game3 a, .game4 a, .game5 a {
+    color: #94337c;
+}
+
+.videogames a {
+    color: #94357c;
+    font-family: 'Inconsolata', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    font-family: 'Inconsolata', Arial, sans-serif;
+}
